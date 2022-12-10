@@ -13,7 +13,130 @@
 <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+
+    <!--navbar-->
+    <nav id="home" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About Me</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--jumbotron-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Iona Chadwick</h1>
+          <p class="lead">Software development</p>
+        </div>
+      </div>
     
+      <!--skills-->
+      <div class="container">
+        <section class="skills">
+            <div class="row">
+                  <div class="skills-card col-6 col-md-3">
+                    <img src="./images/html.png" class="card-img-top" alt="html">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML</h5>
+                    </div>
+                  </div>
+                  <div class="skills-card col-6 col-md-3">
+                    <img src="images/css.jfif" class="card-img-top" alt="css">
+                    <div class="card-body">
+                      <h5 class="card-title">CSS</h5>
+                    </div>
+                  </div>
+                  <div class="skills-card col-6 col-md-3">
+                    <img src="./images/bootstrap.jfif" class="card-img-top" alt="bootstrap">
+                    <div class="card-body">
+                      <h5 class="card-title">Bootstrap</h5>
+                    </div>
+                  </div>
+                  <div class="skills-card col-6 col-md-3">
+                    <img src="images/javascript.png" class="card-img-top" alt="javascript">
+                    <div class="card-body">
+                      <h5 class="card-title">JavaScript</h5>
+                    </div>
+                  </div>
+            </div>
+        </section>
+      </div>
+
+      <!--work-->
+      <div class="container">
+        <section id="work">
+            <div class="row">
+            <div class="work-card col=12 col-sm-6 col-md-3">
+                <img src="./images/woolorama.png" class="card-img-top" alt="jacob sheep">
+                <div class="card-body">
+                  <h5 class="card-title">Wolorama (placeholder)</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://www.facebook.com/Woolorama.uk" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="work-card col=12 col-sm-6 col-md-3">
+                <img src="./images/thetrollhunters.png" class="card-img-top" alt="the troll hunters logo">
+                <div class="card-body">
+                  <h5 class="card-title">The Troll Hunters (placeholder)</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://www.facebook.com/thetrollhunters" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="work-card col=12 col-sm-6 col-md-3">
+                <img src="./images/snekkeren.png" class="card-img-top" alt="snekkeren logo">
+                <div class="card-body">
+                  <h5 class="card-title">Snekkeren (placeholder)</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://www.facebook.com/SnekkerenWoodCraft" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="work-card col=12 col-sm-6 col-md-3">
+                <img src="./images/fiddletongue.jpg" class="card-img-top" alt="iona chadwick">
+                <div class="card-body">
+                  <h5 class="card-title">Iona Chadwick (performer placeholder)</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://www.facebook.com/ionachadwick971" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </section>
+      </div>
+
+      <!--about and work-->
+      <div class="container">
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <p>Having spent most of my life in performing arts including music, circus, acting, and stunts, I have decided to persue a slightly more sedentary (although equally fulfilling) career in web development.
+                <br>
+                I'm a Devon girl, born and bred, but have had a life-long love affair with Norway and hope to move back there again in the future.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <a href="tel:+447898663346" target="_blank" id="phone">Phone</a>
+            <a href="mailto:ionachadwick97@gmail.com" target="_blank" id="email">Email</a>
+            <a href="https://github.com/ionachadwick97" target="_blank" id="github">GitHub</a>
+            <a href="https://instagram.com/ionachadwick971" target="_blank" id="insta">Instagram</a>
+        </section>
+      </div>
+
+      <footer>
+        <p>Copyright Iona Chadwick 2022</p>
+      </footer>
 
     <!--bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
