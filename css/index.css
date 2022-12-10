@@ -9,6 +9,10 @@
     --headfoot: rgba(37, 81, 105, 0.326);
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /*navbar*/
 
 .navbar {
