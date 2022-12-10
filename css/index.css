@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*variables*/
+
+:root {
+    --headfoot: rgba(37, 81, 105, 0.326);
+}
+
+/*navbar*/
+
+.navbar {
+    height: 70px;
+    background-color:var(--headfoot);
+
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-image: url(../images/headshot.JPG);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*skills*/
+
+/*about and contact*/
+
+/*footer*/
+
+footer {
+    height: 70px;
+    background-color: var(--headfoot);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
