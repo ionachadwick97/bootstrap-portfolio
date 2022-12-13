@@ -1,6 +1,5 @@
-# bootstrap-portfolio
+# Bootstrap Portfolio
 
-# bootstrap-portfolio
 
 ## Description 
 
