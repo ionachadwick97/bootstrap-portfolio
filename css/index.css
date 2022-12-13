@@ -34,6 +34,11 @@ h2 {
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+}
+
+.hero-container {
+    margin-left: 15px;
 }
 
 
@@ -87,4 +92,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*quries*/
+
+@media only screen and (max-width: 800px) {
+    
+    .jumbotron {
+        height: 60vh;
+    }
 }
