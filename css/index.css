@@ -86,6 +86,7 @@ h2 {
 
 .copy {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .contact:hover {
@@ -102,6 +103,7 @@ h2 {
 footer {
     background-color: var(--headfoot);
     width: 100%;
+    margin-bottom: 0px;
 }
 
 /*media quries to make page responsive*/
