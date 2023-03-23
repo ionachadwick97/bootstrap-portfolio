@@ -1,24 +1,22 @@
+/* full page styling*/
 * {
     margin:0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a:hover {
-    box-shadow: 3px 3px 5px 2px  rgba(0, 0, 0, 0.472);
-    border-radius: 10px;
-}
-
-/*variables*/
-
-:root {
-    --headfoot: rgba(37, 81, 105, 0.326);
-}
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*navbar*/
+/*variables for nav and footer colouring*/
+
+:root {
+    --headfoot: rgba(37, 81, 105, 0.326);
+}
+
+
+/*styling for navbar*/
 
 .navbar {
     height: 70px;
@@ -27,7 +25,7 @@ h2 {
 
 
 
-/*jumbotron*/
+/*styling for jumbotron*/
 
 .jumbotron {
     background-image: url(../images/headshot.JPG);
@@ -42,7 +40,7 @@ h2 {
 }
 
 
-/*skills*/
+/*making the skills cards display correctly*/
 
 .skills-card-img-top {
     margin: 100px 50px;
@@ -51,7 +49,7 @@ h2 {
     width: 150px;
 }
 
-/*work*/
+/*work section styling making bootstrap cards display the way I want them to*/
 
 .card-img-top {
     border-radius: 15px;
@@ -64,7 +62,13 @@ h2 {
     color: black;
 }
 
-/*about and contact*/
+/*styling for about me section*/
+
+.about {
+    margin: 15px;
+}
+
+/*styling for footer, shadow box on links on hover, flex display*/
 
 .contactlinks {
     display: flex;
@@ -80,25 +84,36 @@ h2 {
     text-decoration: none;
 }
 
-.aboutcontact {
-    margin: 15px;
+.copy {
+    text-align: center;
 }
 
-/*footer*/
+.contact:hover {
+    box-shadow: 3px 3px 5px 2px  rgba(0, 0, 0, 0.472);
+    border-radius: 10px;
+}
+
+.contactlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
 
 footer {
-    height: 70px;
     background-color: var(--headfoot);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
-/*quries*/
+/*media quries to make page responsive*/
 
 @media only screen and (max-width: 800px) {
     
     .jumbotron {
         height: 60vh;
     }
+    .contactlinks {
+        display: flex;
+        flex-direction: column;
+    }
+    } 
 }
